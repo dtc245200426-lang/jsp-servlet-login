@@ -1,0 +1,3 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Login Page</title></head>
+<body><h1>System Login</h1><form action="login" method="POST"><label for="username">Tên đăng nhập</label><input id="username" name="username" type="text" required autocomplete="username"><label for="password">Mật khẩu</label><input id="password" name="password" type="password" required autocomplete="current-password"><button type="submit">Login</button></form></body></html>
